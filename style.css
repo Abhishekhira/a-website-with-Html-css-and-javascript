@@ -1,0 +1,251 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background: linear-gradient(to right,#9291a3,#f0f3f1);
+}
+ul {
+    z-index: 2;
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+    position: relative;
+    bottom: 8vh;
+    font-size: 1.3rem;
+    left: 2vw;
+}
+ul li a{
+    cursor: pointer;
+    z-index: 2;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'EB Garamond', serif;
+}
+.img1{
+    width: 93px;
+    position: relative;
+    filter: drop-shadow(12px 4px 6px black);
+    animation: slide;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+
+@keyframes slide {
+    0%{
+        left: -100%;
+    }
+    50%{
+        left: -50%;
+    }
+    100%{
+        left:0%
+    }
+    
+}
+.img2{
+    display: inline-block;
+    height: 12%;
+    opacity: 1;
+    width: 24%;
+    border-radius: 2vw;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #030202;
+    font-size: 10vh;
+    font-family: 'EB Garamond', serif;
+    bottom: 42vh;
+}
+.h2 {
+    display: flex;
+    justify-content: center;
+    color: #28470cd9;
+    font-size: 10vh;
+    font-family: 'EB Garamond', serif;
+    position: relative;
+    bottom: 42vh;
+}
+.h3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 10vh;
+    font-family: 'EB Garamond', serif;
+    bottom: 42vh;
+}
+.block1 {
+    
+    position: relative;
+    display: flex;
+    justify-content: end;
+    bottom: 19vh;
+    right: 1vw;
+}
+
+.model1 {
+     z-index: 1;
+    width: 43%;
+    background: linear-gradient(to right,#9291a3,#f0f3f1);
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    border: 0px solid black;
+    border-radius: 9px;
+    height: 16vh;
+    align-items: center;
+    position: absolute;
+    left: 30vw;
+}
+
+.model2 {
+     z-index: 1;
+    width: 43%;
+    background: linear-gradient(to right,#9291a3,#f0f3f1);
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    border: 0px solid black;
+    border-radius: 9px;
+    height: 16vh;
+    align-items: center;
+    position: absolute;
+    left: 30vw;
+}
+.class{
+    display: none;
+}
+
+
+.model3 {
+     z-index: 1;
+    width: 43%;
+    background: linear-gradient(to right,#9291a3,#f0f3f1);
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    border: 0px solid black;
+    border-radius: 9px;
+    height: 16vh;
+    align-items: center;
+    position: absolute;
+    left: 30vw;
+}
+
+.model4 {
+     z-index: 1;
+    width: 43%;
+    background: linear-gradient(to right,#9291a3,#f0f3f1);
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    border: 0px solid black;
+    border-radius: 9px;
+    height: 16vh;
+    align-items: center;
+    position: absolute;
+    left: 30vw;
+}
+
+.btn{
+    display: flex;
+    justify-content: end;
+}
+.hidden{
+    display: none;
+}
+.about{
+
+}
+li:hover{
+    border-bottom: 3px solid #000000;
+}
+@media only screen and (max-width:960px)  {
+   
+
+
+    
+    ul {
+        margin: 2px 2px;
+        padding: 2px;
+        line-height: 2;
+        justify-content: space-evenly;
+        display: block;
+        list-style: none;
+        position: relative;
+        bottom: 0vh;
+        font-size: 1.3rem;
+        left: -100%;
+    }
+    
+    .img2 {
+        display: inline-block;
+        height: 30%;
+        opacity: 1;
+        width: 36%;
+        border-radius: 2vw;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    .h1 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        color: #030202;
+        font-size: 6vh;
+        font-family: 'EB Garamond', serif;
+        bottom: 11vh;
+    }
+    .h2 {
+        display: flex;
+        justify-content: center;
+        color: #28470cd9;
+        font-size: 6vh;
+        font-family: 'EB Garamond', serif;
+        position: relative;
+        bottom: 12vh;
+    }
+    .h3 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        color: #000000;
+        font-size: 6vh;
+        font-family: 'EB Garamond', serif;
+        bottom: 11vh;
+        left: -1%;
+    }
+    .block1 {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        bottom: 9vh;
+        right: 30vw;
+    }
+    .class{   
+        bottom: 36vh;
+        position: relative;
+        display: flex;
+        left: 81%;
+    
+    }
+    .wide{
+        width: 100%;
+        position: relative;
+        left: 43%;
+        transition: all;
+        transition-duration: 1.3s;
+        transition-timing-function: ease-in-out;
+        
+    }
+}
